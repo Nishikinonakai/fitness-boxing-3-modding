@@ -1,0 +1,25 @@
+{
+  "PatchName": "Centered Clean Bottom Row (hide NSO/News/eShop/Share/VGC)",
+  "AuthorName": "custom",
+  "TargetName": "ResidentMenu.szs",
+  "ID": "CenteredCleanBottomRow",
+  "TargetFirmware": 200000,
+  "HideOnlineBtn": true,
+  "Files": [
+    {
+      "FileName": "blyt/RdtBase.bflyt",
+      "Patches": [
+        { "PaneName": "L_BtnLR",    "Visible": false },
+        { "PaneName": "L_BtnNoti",  "Visible": false },
+        { "PaneName": "L_BtnShop",  "Visible": false },
+        { "PaneName": "L_BtnSplay", "Visible": false },
+        { "PaneName": "L_BtnVgc",   "Visible": false },
+
+        { "PaneName": "L_BtnPvr",  "Position": { "X": -81.0 } },
+        { "PaneName": "L_BtnCtrl", "Position": { "X": 9.0 } },
+        { "PaneName": "L_BtnSet",  "Position": { "X": 99.0 } },
+        { "PaneName": "L_BtnPow",  "Position": { "X": 189.0 } }
+      ]
+    }
+  ]
+}

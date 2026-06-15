@@ -1,0 +1,46 @@
+# ===== SECRETS — never commit =====
+*.keys
+prod.keys
+title.keys
+fb3/keys/
+
+# ===== Game assets / dumps (copyright + huge) =====
+fb3/romfs_dump/
+fb3/mod_staging/
+*.awb
+*.acb
+*.hca
+*.bundle
+*.szs
+*.bntx
+*.bflyt
+*.bflan
+*.nxtheme
+*.dds
+qlaunch_research/ResidentMenu_extracted/
+
+# ===== Copyrighted audio =====
+bgm/
+*.mp3
+*.wav
+*.flac
+
+# ===== Python venv / caches =====
+.venv/
+**/.venv/
+**/__pycache__/
+*.pyc
+
+# ===== irrelevant scratch =====
+fb3/fb3extract/
+qlaunch_research/ver.cfg
+
+# ===== .NET build artifacts =====
+**/bin/
+**/obj/
+*.nupkg
+
+# ===== misc =====
+.DS_Store
+*.log
+/tmp/
